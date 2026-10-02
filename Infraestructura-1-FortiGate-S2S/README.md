@@ -55,6 +55,3 @@ La documentación completa está en:
 - Video demostrativo al principio del repositorio.
 - Pruebas que demuestren el objetivo de seguridad.
 
-## ⚠️ Nota
-
-Las contraseñas, claves precompartidas y secretos reales **no deben subirse al repositorio**. Si una configuración contiene credenciales, reemplázalas por `[REDACTED]` antes de publicarla.

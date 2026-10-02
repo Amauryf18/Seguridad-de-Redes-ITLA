@@ -2,54 +2,20 @@
 
 ## Objetivo de las pruebas
 
-Demostrar con evidencia que la infraestructura cumple el objetivo de seguridad indicado.
+
 
 ## Evidencias
 
 ## 1. FortiGate
-Documentar por GUI:
-- Interfaces.
-- VLAN 10.
-- DHCP.
-- Ruta por defecto.
-- NAT.
-- Políticas de firewall.
-- VPN/IPsec.
+<img width="524" height="57" alt="image" src="https://github.com/user-attachments/assets/b78f3b5f-1820-4f83-b8f5-93ae4b19d5a6" />
+
 
 ## 2. Equipo Cisco
-Documentar:
-- Interfaces.
-- Direccionamiento.
-- Rutas.
-- NAT, si fue utilizado.
-- Configuración IPsec.
-- ACL/crypto ACL utilizada para identificar el tráfico protegido.
+<img width="611" height="267" alt="image" src="https://github.com/user-attachments/assets/516616a8-599e-42aa-a71a-89c65df7365f" />
 
-## 3. VPN Site-to-Site
-El tráfico protegido debe corresponder a:
-- Local: `10.10.10.0/25`
-- Remota: `10.10.20.0/28`
+## 3. Politicas
+<img width="530" height="109" alt="image" src="https://github.com/user-attachments/assets/fb9ee29f-9873-4dbb-8665-138ae03f6bcc" />
 
-## 4. Pruebas
-- `ping` del usuario al servidor.
-- `tracert`/`traceroute`.
-- Acceso HTTPS.
-- Estado del túnel.
-- Desactivar la VPN y repetir la prueba.
-- Evidenciar la diferencia.
+## 4. Prueba
+<img width="494" height="328" alt="image" src="https://github.com/user-attachments/assets/e15dce90-df27-4e31-85e1-13c8191a9aa5" />
 
-## 5. Seguridad
-Explicar cómo el túnel protege la comunicación entre redes y cómo las políticas/rutas evitan que la prueba dependa de una conexión directa no protegida.
-
-## Registro de pruebas
-
-| # | Prueba | Resultado | Evidencia |
-|---|---|---|---|
-| 1 | Estado de interfaces | PENDIENTE DE EVIDENCIA | `evidencias/` |
-| 2 | Conectividad IP | PENDIENTE DE EVIDENCIA | `evidencias/` |
-| 3 | Estado VPN | PENDIENTE DE EVIDENCIA | `evidencias/` |
-| 4 | HTTPS | PENDIENTE DE EVIDENCIA | `evidencias/` |
-| 5 | Traceroute | PENDIENTE DE EVIDENCIA | `evidencias/` |
-| 6 | Prueba con VPN inactiva | PENDIENTE DE EVIDENCIA | `evidencias/` |
-
-> Cambia cada resultado a APROBADO/NO APROBADO únicamente después de realizar la prueba real.

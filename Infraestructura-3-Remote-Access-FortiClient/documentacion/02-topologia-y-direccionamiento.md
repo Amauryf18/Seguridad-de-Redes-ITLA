@@ -56,9 +56,8 @@ FortiGate:
 
 
 ## Diagrama final
+<img width="1024" height="704" alt="image" src="https://github.com/user-attachments/assets/9ae3f100-a1ec-4e98-bfa2-5ce63712b892" />
 
-Guarda en `diagramas/` una imagen exportada del diagrama final de GNS3.
+Topologia
+<img width="503" height="346" alt="image" src="https://github.com/user-attachments/assets/04f5e4f8-852a-470c-964d-960e2c3f5a58" />
 
-Ejemplo de nombre:
-
-`topologia-final.png`

@@ -1,24 +1,7 @@
 # 05 - Seguridad y conclusiones
 
-## Controles de seguridad implementados
+La implementación de esta topología permitió comprender el funcionamiento de una conexión VPN Site-to-Site utilizando equipos de red Cisco. Se configuró la comunicación entre la red de usuarios 10.3.3.0/24 y la red de servidores 192.168.20.0/24, utilizando un túnel IPsec para proteger el tráfico entre ambos extremos.
 
-Documentar los controles realmente configurados en la infraestructura:
+Durante la práctica se trabajó con rutas estáticas, DHCP, ACL, políticas ISAKMP, transformaciones IPsec y Crypto Map, permitiendo establecer los parámetros necesarios para la comunicación segura entre las redes.
 
-- Segmentación mediante VLAN/redes.
-- Políticas de firewall.
-- NAT.
-- VPN.
-- Restricción de servicios.
-- Control del acceso al servidor.
-- Separación entre tráfico público y tráfico protegido, cuando aplique.
-
-## Conclusión
-
-La infraestructura debe considerarse validada únicamente después de demostrar mediante las pruebas y capturas correspondientes que cumple el objetivo indicado por la asignación.
-
-La conclusión final debe describir:
-1. Qué se configuró.
-2. Qué prueba demuestra el funcionamiento.
-3. Qué sucede cuando la VPN está activa.
-4. Qué sucede cuando la VPN está inactiva.
-5. Qué controles de seguridad evitan el acceso no autorizado.
+Las pruebas realizadas permitieron verificar la conectividad entre los diferentes segmentos de red y comprobar el funcionamiento de la VPN. Esta práctica ayudó a reforzar los conocimientos sobre direccionamiento IP, enrutamiento y configuración de VPN Site-to-Site, así como la importancia de proteger la comunicación entre redes que se encuentran en diferentes ubicaciones.

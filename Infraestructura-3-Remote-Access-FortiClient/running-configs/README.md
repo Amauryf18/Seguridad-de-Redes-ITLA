@@ -1,9 +1,9 @@
 # Running-configs
+configuracion router 
 
-Coloca aquí las configuraciones exportadas de los equipos.
+server-hhtp
+<img width="826" height="663" alt="image" src="https://github.com/user-attachments/assets/c670ec8a-ecfb-4aa0-b68d-bd80c9cb48f5" />
 
-Ejemplos:
-- `fortigate-running-config.txt`
-- `cisco-running-config.txt`
+ssh
+<img width="799" height="578" alt="image" src="https://github.com/user-attachments/assets/05ad689c-4dd6-4a43-a1c4-5b5848688df5" />
 
-Antes de subirlas, elimina o sustituye contraseñas, claves precompartidas, tokens y cualquier secreto real.

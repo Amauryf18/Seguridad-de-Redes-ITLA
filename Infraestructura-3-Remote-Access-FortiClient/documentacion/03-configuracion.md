@@ -2,11 +2,10 @@
 
 ## 1. Red
 Documentar por GUI:
-- WAN del FortiGate.
-- LAN.
-- Ruta por defecto.
-- NAT.
-- Red del servidor.
+FGT:
+<img width="616" height="240" alt="image" src="https://github.com/user-attachments/assets/ac2aa151-9f0c-453b-b256-d663c2a01a0e" />
+Interfaces:
+<img width="680" height="175" alt="image" src="https://github.com/user-attachments/assets/eb64130d-fec8-47d7-89ea-366c4e69ccf0" />
 
 ## 2. Publicación HTTPS
 Explicar el flujo:
@@ -41,37 +40,11 @@ La intención es:
 - HTTPS: público.
 - SSH: únicamente mediante VPN.
 
-## 6. Pruebas
-### Sin VPN
-- HTTPS al servidor: debe funcionar.
-- SSH al servidor: debe estar bloqueado/no permitido desde Internet.
-
 ### Con VPN
 - FortiClient conectado.
 - Cliente recibe una IP del pool VPN.
 - SSH hacia `10.3.3.2` funciona.
 - Traceroute puede utilizarse como evidencia de conectividad.
 
-## 7. Evidencia
-Capturar:
-- FortiClient conectado.
-- IP asignada por VPN.
-- Política VPN→SSH.
-- Sesión SSH.
-- HTTPS público.
-- Prueba de SSH antes de conectar VPN.
 
-
-## Capturas recomendadas
-
-Guarda las capturas en `imagenes/` con nombres descriptivos, por ejemplo:
-
-- `01-interfaces.png`
-- `02-rutas.png`
-- `03-nat.png`
-- `04-vpn-phase1.png`
-- `05-vpn-phase2.png`
-- `06-firewall-policy.png`
-- `07-dhcp.png`
-
-Usa las capturas reales de tu laboratorio. No reemplaces evidencia real por imágenes genéricas.
+0

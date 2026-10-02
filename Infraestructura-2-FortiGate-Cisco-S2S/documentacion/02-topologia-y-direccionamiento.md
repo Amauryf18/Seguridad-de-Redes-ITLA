@@ -2,26 +2,24 @@
 
 ```mermaid
 flowchart LR
-    U[Usuarios<br/>VLAN 10<br/>10.10.10.0/25] --> F[FortiGate]
-    F --> I[Cisco / ISP<br/>Red pública]
+    U[Usuarios<br/>VLAN 10<br/>10.3.3.0/24] --> F[FortiGate]
+    F --> I[Cisco / ISP<br/>203.0.113.5]
     I --> C[Equipo Cisco]
-    C --> W[Web Server<br/>10.10.20.2/28]
+    C --> W[Web Server<br/>192.168.20.0/24]
 ```
 
 ### Direccionamiento de referencia utilizado en el laboratorio
 
-| Equipo/Red | Dirección |
-|---|---|
-| VLAN 10 usuarios | `10.10.10.0/25` |
-| Gateway usuarios | `10.10.10.1` |
-| DHCP usuarios | `10.10.10.10`–`10.10.10.126` |
-| Red Web | `10.10.20.0/28` |
-| Gateway Web | `10.10.20.1` |
-| Web Server | `10.10.20.2` |
-| Enlace público lado Cisco | `203.0.113.6/30` |
-| Peer Cisco | `203.0.113.5/30` |
-| Enlace público lado FortiGate | `203.0.113.2/30` |
-| Peer FortiGate | `203.0.113.1/30` |
+# Direccionamiento IP – Topología 2
+
+| Equipo / Red       | Dirección         |
+| ------------------ | ----------------- |
+| VLAN 10 – Usuarios | `10.3.3.0/24` |
+| Gateway Usuarios   | `10.3.3.1`        |
+| Red Servidores     | `192.168.20.0/24` |
+| Gateway Servidores | `192.168.20.1` |
+| Cisco VPN – WAN    | `203.0.113.5/30` |
+| Peer Cisco VPN     | `203.0.113.6` |
 
 > Verifica que estos valores coincidan exactamente con la topología final presentada en el video y con las capturas.
 

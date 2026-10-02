@@ -2,8 +2,6 @@ NOMBRE: Amaurys Daniel De La Cruz Duval
 MATRÍCULA: 20231323
 REPOSITORIO:
 https://github.com/Amauryf18/Seguridad-de-Redes-ITLA/edit/main/Plantilla_Entregable.txt
-VIDEO:
-[PEGAR ENLACE DE YOUTUBE U ONEDRIVE INSTITUCIONAL]
 
-DESCRIPCIÓN:
-Repositorio correspondiente a las  Infraestructuras de la asignación de Seguridad de Redes. Incluye documentación, diagramas, evidencias, scripts utilizados y running-configs de los equipos.
+DECRIPCIÓN:
+Repositorio correspondiente a las Infraestructuras de la asignación de Seguridad de Redes. Incluye documentación, diagramas, evidencias, scripts utilizados y running-configs de los equipos.

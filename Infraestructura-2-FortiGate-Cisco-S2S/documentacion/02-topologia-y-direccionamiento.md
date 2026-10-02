@@ -25,9 +25,9 @@ flowchart LR
 
 
 ## Diagrama final
+<img width="1024" height="641" alt="image" src="https://github.com/user-attachments/assets/cf829771-6c16-4dd1-a280-fd55996a4354" />
 
-Guarda en `diagramas/` una imagen exportada del diagrama final de GNS3.
+## Topologia
+<img width="498" height="322" alt="image" src="https://github.com/user-attachments/assets/d6e4d53c-881f-462f-8a9d-b77f5863d738" />
 
-Ejemplo de nombre:
 
-`topologia-final.png`

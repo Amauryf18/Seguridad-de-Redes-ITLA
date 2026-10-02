@@ -8,7 +8,7 @@ flowchart LR
     FG2 --> W[Web Server<br/>192.168.10.0/24]
 ```
 
-### Direccionamiento registrado durante el laboratorio
+### Direccionamiento 
 
 | Equipo | Dirección |
 |---|---|
@@ -19,13 +19,12 @@ flowchart LR
 | Red de usuarios / lado cliente | `10.3.3.0/24` |
 | Red del servidor / lado remoto | `192.168.10.0/24` |
 
-> **Importante:** la consigna académica solicita usuarios `/25`, VLAN 10 y servidor `/28`. Antes de entregar, sustituye en esta tabla cualquier direccionamiento de laboratorio que haya sido posteriormente cambiado por el direccionamiento final basado en tu matrícula.
-
 
 ## Diagrama final
 
-Guarda en `diagramas/` una imagen exportada del diagrama final de GNS3.
+
 
 Ejemplo de nombre:
 
-`topologia-final.png`
+<img width="635" height="391" alt="image" src="https://github.com/user-attachments/assets/87d97f1d-fbac-4220-b836-fdef946f9e79" />
+

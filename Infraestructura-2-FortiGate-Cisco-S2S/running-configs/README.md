@@ -1,29 +1,26 @@
 # Running-configs
 
 R1-ISP:
-!
+
 version 15.2
-!
+
 hostname R1
-!
+
 no ip domain-lookup
-!
-!
+
 interface GigabitEthernet0/0
  description ENLACE-HACIA-FIREWALL
  ip address 203.0.113.1 255.255.255.252
  no shutdown
-!
-!
+
 interface GigabitEthernet0/1
  description ENLACE-HACIA-CISCO-VPN
  ip address 203.0.113.5 255.255.255.252
  no shutdown
-!
-!
+
 ip route 203.0.113.0 255.255.255.252 203.0.113.5
 ip route 10.3.3.0 255.255.255.0 203.0.113.5
-!
+
 end
 
 R2-VPN:

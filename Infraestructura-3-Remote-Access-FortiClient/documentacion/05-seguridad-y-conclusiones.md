@@ -1,24 +1,5 @@
 # 05 - Seguridad y conclusiones
 
-## Controles de seguridad implementados
+La implementación de esta topología permitió poner en práctica la configuración de una infraestructura de red utilizando equipos Huawei, aplicando conceptos de direccionamiento IP, VLAN, enrutamiento y comunicación entre diferentes segmentos de red.
 
-Documentar los controles realmente configurados en la infraestructura:
-
-- Segmentación mediante VLAN/redes.
-- Políticas de firewall.
-- NAT.
-- VPN.
-- Restricción de servicios.
-- Control del acceso al servidor.
-- Separación entre tráfico público y tráfico protegido, cuando aplique.
-
-## Conclusión
-
-La infraestructura debe considerarse validada únicamente después de demostrar mediante las pruebas y capturas correspondientes que cumple el objetivo indicado por la asignación.
-
-La conclusión final debe describir:
-1. Qué se configuró.
-2. Qué prueba demuestra el funcionamiento.
-3. Qué sucede cuando la VPN está activa.
-4. Qué sucede cuando la VPN está inactiva.
-5. Qué controles de seguridad evitan el acceso no autorizado.
+Durante el desarrollo de la práctica se configuraron los dispositivos de red y se establecieron las diferentes conexiones necesarias para permitir la comunicación entre los usuarios y los servicios de la red. También se realizaron pruebas de conectividad para verificar que las configuraciones realizadas funcionaran correctamente.

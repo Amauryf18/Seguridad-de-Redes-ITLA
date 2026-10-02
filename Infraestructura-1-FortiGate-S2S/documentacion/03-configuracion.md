@@ -43,6 +43,8 @@ interface GigabitEthernet0/1
 !
 !
 end
+FGT-FGT
+<img width="1349" height="459" alt="image" src="https://github.com/user-attachments/assets/c678b0cf-e934-4041-a4cb-7f7200597791" />
 
 ## 2. NAT
 Documentar:

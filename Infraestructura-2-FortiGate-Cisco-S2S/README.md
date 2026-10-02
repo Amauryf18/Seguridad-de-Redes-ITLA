@@ -14,10 +14,10 @@ Comunicar la red de usuarios con la red del servidor mediante un enlace VPN Site
 
 ```mermaid
 flowchart LR
-    U[Usuarios<br/>VLAN 10<br/>10.10.10.0/25] --> F[FortiGate]
-    F --> I[Cisco / ISP<br/>Red pública]
+    U[Usuarios<br/>VLAN 10<br/>10.3.3.0/24] --> F[FortiGate]
+    F --> I[Cisco / ISP<br/>203.0.113.5]
     I --> C[Equipo Cisco]
-    C --> W[Web Server<br/>10.10.20.2/28]
+    C --> W[Web Server<br/>192.168.20.0/24]
 ```
 
 ## 📚 Documentación
@@ -55,6 +55,3 @@ La documentación completa está en:
 - Video demostrativo al principio del repositorio.
 - Pruebas que demuestren el objetivo de seguridad.
 
-## ⚠️ Nota
-
-Las contraseñas, claves precompartidas y secretos reales **no deben subirse al repositorio**. Si una configuración contiene credenciales, reemplázalas por `[REDACTED]` antes de publicarla.

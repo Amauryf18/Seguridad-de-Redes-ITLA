@@ -23,7 +23,6 @@ flowchart LR
 ## Diagrama final
 <img width="726" height="542" alt="image" src="https://github.com/user-attachments/assets/3dffafb4-cf1f-43eb-9c65-ec93718bacf2" />
 
-Ejemplo de nombre:
 
 <img width="635" height="391" alt="image" src="https://github.com/user-attachments/assets/87d97f1d-fbac-4220-b836-fdef946f9e79" />
 

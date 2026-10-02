@@ -1,15 +1,9 @@
 NOMBRE: Amaurys Daniel De La Cruz Duval
-MATRÍCULA: [COLOCAR MATRÍCULA COMPLETA]
-P1 / INFRAESTRUCTURA: [1, 2 o 3]
-
+MATRÍCULA: 20231323
 REPOSITORIO:
-[PEGAR ENLACE DEL REPOSITORIO]
-
+https://github.com/Amauryf18/Seguridad-de-Redes-ITLA/edit/main/Plantilla_Entregable.txt
 VIDEO:
 [PEGAR ENLACE DE YOUTUBE U ONEDRIVE INSTITUCIONAL]
 
 DESCRIPCIÓN:
-Repositorio correspondiente a la Infraestructura [X] de la asignación de Seguridad de Redes. Incluye documentación, diagramas, evidencias, scripts utilizados y running-configs de los equipos.
-
-NOTA:
-El video debe tener una duración máxima de 10 minutos y cumplir con los requisitos indicados por la asignación.
+Repositorio correspondiente a las  Infraestructuras de la asignación de Seguridad de Redes. Incluye documentación, diagramas, evidencias, scripts utilizados y running-configs de los equipos.

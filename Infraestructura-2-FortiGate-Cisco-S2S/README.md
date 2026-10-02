@@ -2,7 +2,7 @@
 
 ## 🎥 Video demostrativo
 
-**Ver primero:** [Video demostrativo](video/VIDEO.md)
+**Ver primero:** [Video demostrativo](https://youtu.be/RmLSpwIkmC0)
 
 > Coloca aquí el enlace final de YouTube o OneDrive institucional. El video debe cumplir el máximo de 10 minutos y mostrar fecha/hora, rostro y voz.
 
